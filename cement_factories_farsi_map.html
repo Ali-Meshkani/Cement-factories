@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_242255ff76c43ec36747d68e5f68ff2d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_242255ff76c43ec36747d68e5f68ff2d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_242255ff76c43ec36747d68e5f68ff2d = L.map(
+                "map_242255ff76c43ec36747d68e5f68ff2d",
+                {
+                    center: [32.4279, 53.688],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad7c2d0dde03d680be99e0230b2d38a9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var marker_46aad188a9978057f60e89e2d9840810 = L.marker(
+                [35.5781876, 51.5050842],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_9453806921285ba77eaeb2c06babecf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46aad188a9978057f60e89e2d9840810.setIcon(icon_9453806921285ba77eaeb2c06babecf5);
+        
+    
+        var popup_54736bd650f2af9c7aec99cc26b8a482 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_444385336a1e764860ab7fb76e370ee2 = $(`<div id="html_444385336a1e764860ab7fb76e370ee2" style="width: 100.0%; height: 100.0%;">سیمان تهران</div>`)[0];
+                popup_54736bd650f2af9c7aec99cc26b8a482.setContent(html_444385336a1e764860ab7fb76e370ee2);
+            
+        
+
+        marker_46aad188a9978057f60e89e2d9840810.bindPopup(popup_54736bd650f2af9c7aec99cc26b8a482)
+        ;
+
+        
+    
+    
+            var marker_1c3155673c3688b395a7b68172cafc05 = L.marker(
+                [36.017361550000004, 50.586729226983664],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_b078ef9ec2876575c0ea4b65a2180ca3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c3155673c3688b395a7b68172cafc05.setIcon(icon_b078ef9ec2876575c0ea4b65a2180ca3);
+        
+    
+        var popup_590606f15d94704340a69c619fbfa0b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_930dc5f0e33dd09942ecb03ccc582268 = $(`<div id="html_930dc5f0e33dd09942ecb03ccc582268" style="width: 100.0%; height: 100.0%;">سیمان فارس و خوزستان</div>`)[0];
+                popup_590606f15d94704340a69c619fbfa0b0.setContent(html_930dc5f0e33dd09942ecb03ccc582268);
+            
+        
+
+        marker_1c3155673c3688b395a7b68172cafc05.bindPopup(popup_590606f15d94704340a69c619fbfa0b0)
+        ;
+
+        
+    
+    
+            var marker_202d3bdc9efe9a79b606f6ed0edeeed1 = L.marker(
+                [35.3116931, 49.210465615497355],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_e4b483b7e3abd6ae1b73b8bc0644365f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_202d3bdc9efe9a79b606f6ed0edeeed1.setIcon(icon_e4b483b7e3abd6ae1b73b8bc0644365f);
+        
+    
+        var popup_674d204a7a62911b57faf5a2b0d26eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_113642271ba9980bf9ec19aefe0075c7 = $(`<div id="html_113642271ba9980bf9ec19aefe0075c7" style="width: 100.0%; height: 100.0%;">سیمان هگمتان</div>`)[0];
+                popup_674d204a7a62911b57faf5a2b0d26eb8.setContent(html_113642271ba9980bf9ec19aefe0075c7);
+            
+        
+
+        marker_202d3bdc9efe9a79b606f6ed0edeeed1.bindPopup(popup_674d204a7a62911b57faf5a2b0d26eb8)
+        ;
+
+        
+    
+    
+            var marker_9607cb1474a24fef07c574ad5c964ebf = L.marker(
+                [32.40937, 51.517992314968296],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_ef3f4a7b00da60497bcf90dca439e3a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9607cb1474a24fef07c574ad5c964ebf.setIcon(icon_ef3f4a7b00da60497bcf90dca439e3a6);
+        
+    
+        var popup_65edb2d4fc97e709a8ea023fb2142f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958b7e3f6e41c01741f20108d222d8a1 = $(`<div id="html_958b7e3f6e41c01741f20108d222d8a1" style="width: 100.0%; height: 100.0%;">سیمان سپاهان</div>`)[0];
+                popup_65edb2d4fc97e709a8ea023fb2142f25.setContent(html_958b7e3f6e41c01741f20108d222d8a1);
+            
+        
+
+        marker_9607cb1474a24fef07c574ad5c964ebf.bindPopup(popup_65edb2d4fc97e709a8ea023fb2142f25)
+        ;
+
+        
+    
+    
+            var marker_1888071484bced482279d9403959b695 = L.marker(
+                [36.4614382, 59.7299777],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_3355a4091dedcdfa61591ead32d0ee40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1888071484bced482279d9403959b695.setIcon(icon_3355a4091dedcdfa61591ead32d0ee40);
+        
+    
+        var popup_b2648397028a4fd59b3cbffe3ac63927 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c880485daa10c7ddf4e6ab5ff581fbb5 = $(`<div id="html_c880485daa10c7ddf4e6ab5ff581fbb5" style="width: 100.0%; height: 100.0%;">سیمان شرق</div>`)[0];
+                popup_b2648397028a4fd59b3cbffe3ac63927.setContent(html_c880485daa10c7ddf4e6ab5ff581fbb5);
+            
+        
+
+        marker_1888071484bced482279d9403959b695.bindPopup(popup_b2648397028a4fd59b3cbffe3ac63927)
+        ;
+
+        
+    
+    
+            var marker_ed4bf219aa01e3f2ca41a5d5a8ddf6d7 = L.marker(
+                [36.6276818, 49.503513],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_d3de725995f407d90f17d5c98e79f7eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed4bf219aa01e3f2ca41a5d5a8ddf6d7.setIcon(icon_d3de725995f407d90f17d5c98e79f7eb);
+        
+    
+        var popup_57fad0f26944aca77c3f3cc43a589366 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b9dc723fcc9797200453b1e7f45522a = $(`<div id="html_7b9dc723fcc9797200453b1e7f45522a" style="width: 100.0%; height: 100.0%;">سیمان خزر</div>`)[0];
+                popup_57fad0f26944aca77c3f3cc43a589366.setContent(html_7b9dc723fcc9797200453b1e7f45522a);
+            
+        
+
+        marker_ed4bf219aa01e3f2ca41a5d5a8ddf6d7.bindPopup(popup_57fad0f26944aca77c3f3cc43a589366)
+        ;
+
+        
+    
+    
+            var marker_afd35bbf9a137046caee4126c50eab63 = L.marker(
+                [36.636412750000005, 53.33654583526311],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_31ee3ac3b760c78093a85c27170040d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_afd35bbf9a137046caee4126c50eab63.setIcon(icon_31ee3ac3b760c78093a85c27170040d9);
+        
+    
+        var popup_ff2b087e2cc8e0229aa066b513085468 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc0e986a8f485afdd3ff63993849bd5e = $(`<div id="html_dc0e986a8f485afdd3ff63993849bd5e" style="width: 100.0%; height: 100.0%;">سیمان مازندران</div>`)[0];
+                popup_ff2b087e2cc8e0229aa066b513085468.setContent(html_dc0e986a8f485afdd3ff63993849bd5e);
+            
+        
+
+        marker_afd35bbf9a137046caee4126c50eab63.bindPopup(popup_ff2b087e2cc8e0229aa066b513085468)
+        ;
+
+        
+    
+    
+            var marker_ff274368134d50323fdd0a49bb4532b5 = L.marker(
+                [34.3659896, 47.1349466],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_dafd9f1cc57c1ded6e9df8bd7da5edc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff274368134d50323fdd0a49bb4532b5.setIcon(icon_dafd9f1cc57c1ded6e9df8bd7da5edc4);
+        
+    
+        var popup_593dd5c1476d08eedfbbe724284b6889 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16636cbca6ad17c010d6e5e872b5614d = $(`<div id="html_16636cbca6ad17c010d6e5e872b5614d" style="width: 100.0%; height: 100.0%;">سیمان غرب</div>`)[0];
+                popup_593dd5c1476d08eedfbbe724284b6889.setContent(html_16636cbca6ad17c010d6e5e872b5614d);
+            
+        
+
+        marker_ff274368134d50323fdd0a49bb4532b5.bindPopup(popup_593dd5c1476d08eedfbbe724284b6889)
+        ;
+
+        
+    
+    
+            var marker_1cfaee9a17a4ac6bc563219a26bbdab7 = L.marker(
+                [28.6936065, 54.18938196236637],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_0232bda31d60982943db410f091d759e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1cfaee9a17a4ac6bc563219a26bbdab7.setIcon(icon_0232bda31d60982943db410f091d759e);
+        
+    
+        var popup_54222f2276ec263097b2fdb86b9c8232 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee84e18563b2c2fbbafcf92fa2fbfb06 = $(`<div id="html_ee84e18563b2c2fbbafcf92fa2fbfb06" style="width: 100.0%; height: 100.0%;">سیمان داراب</div>`)[0];
+                popup_54222f2276ec263097b2fdb86b9c8232.setContent(html_ee84e18563b2c2fbbafcf92fa2fbfb06);
+            
+        
+
+        marker_1cfaee9a17a4ac6bc563219a26bbdab7.bindPopup(popup_54222f2276ec263097b2fdb86b9c8232)
+        ;
+
+        
+    
+    
+            var marker_a3e79c8b80f2024969354530eaa345c9 = L.marker(
+                [36.483488449999996, 54.90021223668134],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_f14e01c1784ba8fe0dee897ed82c6015 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a3e79c8b80f2024969354530eaa345c9.setIcon(icon_f14e01c1784ba8fe0dee897ed82c6015);
+        
+    
+        var popup_15d82a2e3b6b85279acb7cbb635210f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d59216929aafe66870309d45d03c226 = $(`<div id="html_5d59216929aafe66870309d45d03c226" style="width: 100.0%; height: 100.0%;">سیمان شاهرود</div>`)[0];
+                popup_15d82a2e3b6b85279acb7cbb635210f0.setContent(html_5d59216929aafe66870309d45d03c226);
+            
+        
+
+        marker_a3e79c8b80f2024969354530eaa345c9.bindPopup(popup_15d82a2e3b6b85279acb7cbb635210f0)
+        ;
+
+        
+    
+    
+            var marker_5b4e834e1e100cb1cf8e454118a6e66b = L.marker(
+                [33.6286264, 59.16871323387722],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_0d6e6d629a013a01189a7aee54c46624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b4e834e1e100cb1cf8e454118a6e66b.setIcon(icon_0d6e6d629a013a01189a7aee54c46624);
+        
+    
+        var popup_405125517b067d8bcdc89ec936afd85f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b78c80832fb60a507c81d5fc844bfc8 = $(`<div id="html_7b78c80832fb60a507c81d5fc844bfc8" style="width: 100.0%; height: 100.0%;">سیمان قائن</div>`)[0];
+                popup_405125517b067d8bcdc89ec936afd85f.setContent(html_7b78c80832fb60a507c81d5fc844bfc8);
+            
+        
+
+        marker_5b4e834e1e100cb1cf8e454118a6e66b.bindPopup(popup_405125517b067d8bcdc89ec936afd85f)
+        ;
+
+        
+    
+    
+            var marker_212f84282213fc8394ab1fa0c7a0d597 = L.marker(
+                [35.9281555, 47.55215847701556],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_86a9c368a624a77b5022d9fd163d7411 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_212f84282213fc8394ab1fa0c7a0d597.setIcon(icon_86a9c368a624a77b5022d9fd163d7411);
+        
+    
+        var popup_7da3674195d03d8aeb4d0819f6a587b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f4c504df421faee456131280915d6ba = $(`<div id="html_1f4c504df421faee456131280915d6ba" style="width: 100.0%; height: 100.0%;">سیمان کردستان</div>`)[0];
+                popup_7da3674195d03d8aeb4d0819f6a587b3.setContent(html_1f4c504df421faee456131280915d6ba);
+            
+        
+
+        marker_212f84282213fc8394ab1fa0c7a0d597.bindPopup(popup_7da3674195d03d8aeb4d0819f6a587b3)
+        ;
+
+        
+    
+    
+            var marker_7906c302f7ba65addc665cfd8e37a09b = L.marker(
+                [37.45364345, 57.68573698849159],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_ffc92adbb64fa9cf81dfb02e15a0a7c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7906c302f7ba65addc665cfd8e37a09b.setIcon(icon_ffc92adbb64fa9cf81dfb02e15a0a7c9);
+        
+    
+        var popup_f857fe0f60744f7354ce942b0f281be5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e2c93cfff922deb204b3eed039a966 = $(`<div id="html_13e2c93cfff922deb204b3eed039a966" style="width: 100.0%; height: 100.0%;">سیمان بجنورد</div>`)[0];
+                popup_f857fe0f60744f7354ce942b0f281be5.setContent(html_13e2c93cfff922deb204b3eed039a966);
+            
+        
+
+        marker_7906c302f7ba65addc665cfd8e37a09b.bindPopup(popup_f857fe0f60744f7354ce942b0f281be5)
+        ;
+
+        
+    
+    
+            var marker_2ebe691899a72ed71274adbf7f7011ce = L.marker(
+                [27.78862795, 54.48239900560917],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_7447b4988d86dcdf23e4264440d7a195 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2ebe691899a72ed71274adbf7f7011ce.setIcon(icon_7447b4988d86dcdf23e4264440d7a195);
+        
+    
+        var popup_03764c6a4d4a43d08ead76413a0bc88b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d4226bc0a151870feeaf9478f5d4c8e = $(`<div id="html_5d4226bc0a151870feeaf9478f5d4c8e" style="width: 100.0%; height: 100.0%;">سیمان لارستان</div>`)[0];
+                popup_03764c6a4d4a43d08ead76413a0bc88b.setContent(html_5d4226bc0a151870feeaf9478f5d4c8e);
+            
+        
+
+        marker_2ebe691899a72ed71274adbf7f7011ce.bindPopup(popup_03764c6a4d4a43d08ead76413a0bc88b)
+        ;
+
+        
+    
+    
+            var marker_0de678175d209804cfa036787d99d0ee = L.marker(
+                [36.01689035, 50.59353078217879],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_18c0197ce794327c8b96154a31271375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0de678175d209804cfa036787d99d0ee.setIcon(icon_18c0197ce794327c8b96154a31271375);
+        
+    
+        var popup_d1d62c1d6c3801d1e39f38b84292d65e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82e481a70d8b3ee6b6ae74d656a9a236 = $(`<div id="html_82e481a70d8b3ee6b6ae74d656a9a236" style="width: 100.0%; height: 100.0%;">سیمان آبیک</div>`)[0];
+                popup_d1d62c1d6c3801d1e39f38b84292d65e.setContent(html_82e481a70d8b3ee6b6ae74d656a9a236);
+            
+        
+
+        marker_0de678175d209804cfa036787d99d0ee.bindPopup(popup_d1d62c1d6c3801d1e39f38b84292d65e)
+        ;
+
+        
+    
+    
+            var marker_2d1382a3f4679c9e52fd9ac5f0c50502 = L.marker(
+                [37.3060593, 45.29837481341005],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_c0632dfe4d8ebb3a2d1e1963e950ec5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d1382a3f4679c9e52fd9ac5f0c50502.setIcon(icon_c0632dfe4d8ebb3a2d1e1963e950ec5a);
+        
+    
+        var popup_7c2f9105db258107c699f7916fe6826f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ae44e2ae86e5c790a607baf5b9fbfe4 = $(`<div id="html_8ae44e2ae86e5c790a607baf5b9fbfe4" style="width: 100.0%; height: 100.0%;">سیمان ارومیه</div>`)[0];
+                popup_7c2f9105db258107c699f7916fe6826f.setContent(html_8ae44e2ae86e5c790a607baf5b9fbfe4);
+            
+        
+
+        marker_2d1382a3f4679c9e52fd9ac5f0c50502.bindPopup(popup_7c2f9105db258107c699f7916fe6826f)
+        ;
+
+        
+    
+    
+            var marker_8637ea343c53a28a46674a22c9761b5c = L.marker(
+                [32.7318825, 53.09243673511418],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_589aa7cd52a4c040c730b531b532423b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8637ea343c53a28a46674a22c9761b5c.setIcon(icon_589aa7cd52a4c040c730b531b532423b);
+        
+    
+        var popup_14ee4ca33d56e4a85a3096afe8bcb7f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e57487affe93eff112c66b0d32564a2 = $(`<div id="html_6e57487affe93eff112c66b0d32564a2" style="width: 100.0%; height: 100.0%;">سیمان نایین</div>`)[0];
+                popup_14ee4ca33d56e4a85a3096afe8bcb7f3.setContent(html_6e57487affe93eff112c66b0d32564a2);
+            
+        
+
+        marker_8637ea343c53a28a46674a22c9761b5c.bindPopup(popup_14ee4ca33d56e4a85a3096afe8bcb7f3)
+        ;
+
+        
+    
+    
+            var marker_19170f85696b1d40f7b14cabecb7a150 = L.marker(
+                [27.326810000000002, 53.4462803638432],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_06fae6414c04ef21d6876c142797caee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19170f85696b1d40f7b14cabecb7a150.setIcon(icon_06fae6414c04ef21d6876c142797caee);
+        
+    
+        var popup_5f8b662b46141663395040c5a45c401f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3c79980902c49fe5471a3427a7a2a24 = $(`<div id="html_a3c79980902c49fe5471a3427a7a2a24" style="width: 100.0%; height: 100.0%;">سیمان لامرد</div>`)[0];
+                popup_5f8b662b46141663395040c5a45c401f.setContent(html_a3c79980902c49fe5471a3427a7a2a24);
+            
+        
+
+        marker_19170f85696b1d40f7b14cabecb7a150.bindPopup(popup_5f8b662b46141663395040c5a45c401f)
+        ;
+
+        
+    
+    
+            var marker_be119ffda65bbb8006deffbdf87e11ff = L.marker(
+                [33.7312186, 46.519804],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_5c9b3965edaa00f858c33d7486d83dec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be119ffda65bbb8006deffbdf87e11ff.setIcon(icon_5c9b3965edaa00f858c33d7486d83dec);
+        
+    
+        var popup_98e38c609c40190da73bf7ab2f2fe01b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2a727ffa0fac17c657c239bb15006da = $(`<div id="html_c2a727ffa0fac17c657c239bb15006da" style="width: 100.0%; height: 100.0%;">سیمان ایلام</div>`)[0];
+                popup_98e38c609c40190da73bf7ab2f2fe01b.setContent(html_c2a727ffa0fac17c657c239bb15006da);
+            
+        
+
+        marker_be119ffda65bbb8006deffbdf87e11ff.bindPopup(popup_98e38c609c40190da73bf7ab2f2fe01b)
+        ;
+
+        
+    
+    
+            var marker_83f2b786dcb8cb1a765f17089af38756 = L.marker(
+                [30.23503225, 56.91056998363743],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_0c5ca1062c6460187c9e69f9aaa39ccf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83f2b786dcb8cb1a765f17089af38756.setIcon(icon_0c5ca1062c6460187c9e69f9aaa39ccf);
+        
+    
+        var popup_81b844639a53bf3f2852dde0108f3465 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb76f704c369644b977cb1b6d7b4f692 = $(`<div id="html_cb76f704c369644b977cb1b6d7b4f692" style="width: 100.0%; height: 100.0%;">سیمان کرمان</div>`)[0];
+                popup_81b844639a53bf3f2852dde0108f3465.setContent(html_cb76f704c369644b977cb1b6d7b4f692);
+            
+        
+
+        marker_83f2b786dcb8cb1a765f17089af38756.bindPopup(popup_81b844639a53bf3f2852dde0108f3465)
+        ;
+
+        
+    
+    
+            var marker_052b4cf0ea25fc9b36b434456b15f216 = L.marker(
+                [30.1570034, 60.735722333219655],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_07cc0ef10be80c17d3a6b3ec07b3a957 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_052b4cf0ea25fc9b36b434456b15f216.setIcon(icon_07cc0ef10be80c17d3a6b3ec07b3a957);
+        
+    
+        var popup_8582087534251f14a7c91d9f9edba2ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_680be3ff3ed46adc8b1dfbc37e8e815e = $(`<div id="html_680be3ff3ed46adc8b1dfbc37e8e815e" style="width: 100.0%; height: 100.0%;">سیمان زابل</div>`)[0];
+                popup_8582087534251f14a7c91d9f9edba2ac.setContent(html_680be3ff3ed46adc8b1dfbc37e8e815e);
+            
+        
+
+        marker_052b4cf0ea25fc9b36b434456b15f216.bindPopup(popup_8582087534251f14a7c91d9f9edba2ac)
+        ;
+
+        
+    
+    
+            var marker_a34c9d7becda304734a867154632b22b = L.marker(
+                [29.328855500000003, 51.24472206889718],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_17bbd3da9ceb47fb618557a6749675a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a34c9d7becda304734a867154632b22b.setIcon(icon_17bbd3da9ceb47fb618557a6749675a7);
+        
+    
+        var popup_c96bacb0301efc48fe01210f25b693c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e2a9546a94b95e84e88f5f2fa77709e = $(`<div id="html_9e2a9546a94b95e84e88f5f2fa77709e" style="width: 100.0%; height: 100.0%;">سیمان دشتستان</div>`)[0];
+                popup_c96bacb0301efc48fe01210f25b693c9.setContent(html_9e2a9546a94b95e84e88f5f2fa77709e);
+            
+        
+
+        marker_a34c9d7becda304734a867154632b22b.bindPopup(popup_c96bacb0301efc48fe01210f25b693c9)
+        ;
+
+        
+    
+    
+            var marker_4f876ef4aad596d0139d055572411d5c = L.marker(
+                [36.4770339, 59.7453678],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_526b4eca76976c4d2c7219cc9775a9c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f876ef4aad596d0139d055572411d5c.setIcon(icon_526b4eca76976c4d2c7219cc9775a9c5);
+        
+    
+        var popup_9cb8b426f6404d1caeecb08d8cc82a7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc7a9011d439dc81b47694b2373a913e = $(`<div id="html_bc7a9011d439dc81b47694b2373a913e" style="width: 100.0%; height: 100.0%;">سیمان سفید شرق</div>`)[0];
+                popup_9cb8b426f6404d1caeecb08d8cc82a7d.setContent(html_bc7a9011d439dc81b47694b2373a913e);
+            
+        
+
+        marker_4f876ef4aad596d0139d055572411d5c.bindPopup(popup_9cb8b426f6404d1caeecb08d8cc82a7d)
+        ;
+
+        
+    
+    
+            var marker_97226e0bd4275b9c645c3805b47fc327 = L.marker(
+                [29.2512362, 54.47730671922655],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_5ca9de5261f5f1f9b484fe683bf6d832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97226e0bd4275b9c645c3805b47fc327.setIcon(icon_5ca9de5261f5f1f9b484fe683bf6d832);
+        
+    
+        var popup_8f8960eafda1987865f4f948a3367105 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a779e7765f3845b087f21a3ecc0f29 = $(`<div id="html_57a779e7765f3845b087f21a3ecc0f29" style="width: 100.0%; height: 100.0%;">سیمان سفید نی‌ریز</div>`)[0];
+                popup_8f8960eafda1987865f4f948a3367105.setContent(html_57a779e7765f3845b087f21a3ecc0f29);
+            
+        
+
+        marker_97226e0bd4275b9c645c3805b47fc327.bindPopup(popup_8f8960eafda1987865f4f948a3367105)
+        ;
+
+        
+    
+    
+            var marker_549c070e2991a68252e609f2a98b0cc9 = L.marker(
+                [38.247974049999996, 46.04497434397585],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_15c329869206923e665303479021e073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_549c070e2991a68252e609f2a98b0cc9.setIcon(icon_15c329869206923e665303479021e073);
+        
+    
+        var popup_a602ee019fcfaebbee79081194e0928c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bdc35fd8fd9b25d9a090c3ad7060175 = $(`<div id="html_9bdc35fd8fd9b25d9a090c3ad7060175" style="width: 100.0%; height: 100.0%;">سیمان صوفیان</div>`)[0];
+                popup_a602ee019fcfaebbee79081194e0928c.setContent(html_9bdc35fd8fd9b25d9a090c3ad7060175);
+            
+        
+
+        marker_549c070e2991a68252e609f2a98b0cc9.bindPopup(popup_a602ee019fcfaebbee79081194e0928c)
+        ;
+
+        
+    
+    
+            var marker_3a530b12cd8dd757d2843e6577a7642d = L.marker(
+                [36.22737, 48.62640906039633],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_3a428de0c48bf227a9858ef386c4635c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a530b12cd8dd757d2843e6577a7642d.setIcon(icon_3a428de0c48bf227a9858ef386c4635c);
+        
+    
+        var popup_a4b04191838f0cd880b49328426d3fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92601cae093011af82f40f39383a13ad = $(`<div id="html_92601cae093011af82f40f39383a13ad" style="width: 100.0%; height: 100.0%;">سیمان زنجان</div>`)[0];
+                popup_a4b04191838f0cd880b49328426d3fcd.setContent(html_92601cae093011af82f40f39383a13ad);
+            
+        
+
+        marker_3a530b12cd8dd757d2843e6577a7642d.bindPopup(popup_a4b04191838f0cd880b49328426d3fcd)
+        ;
+
+        
+    
+    
+            var marker_29409c5f2ff41afc3257d271b56dee00 = L.marker(
+                [35.48993465, 50.20563589028394],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_6ced7a72d23bbc2bd2a7fe5695525b74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29409c5f2ff41afc3257d271b56dee00.setIcon(icon_6ced7a72d23bbc2bd2a7fe5695525b74);
+        
+    
+        var popup_663329e9ac103d5727b45ab81960b5fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6704f206deb3f7af15f3195091f92bf = $(`<div id="html_e6704f206deb3f7af15f3195091f92bf" style="width: 100.0%; height: 100.0%;">سیمان ساوه</div>`)[0];
+                popup_663329e9ac103d5727b45ab81960b5fe.setContent(html_e6704f206deb3f7af15f3195091f92bf);
+            
+        
+
+        marker_29409c5f2ff41afc3257d271b56dee00.bindPopup(popup_663329e9ac103d5727b45ab81960b5fe)
+        ;
+
+        
+    
+    
+            var marker_a1c62345bf1f36d2215bf091127d1991 = L.marker(
+                [35.891784650000005, 57.06529458306572],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_eb08cf4717d80f03a1aab2627c605be2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1c62345bf1f36d2215bf091127d1991.setIcon(icon_eb08cf4717d80f03a1aab2627c605be2);
+        
+    
+        var popup_0c93f693eec239ca3973c76b5fdc4678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be67fa91eacb5945187b7fed645b7c84 = $(`<div id="html_be67fa91eacb5945187b7fed645b7c84" style="width: 100.0%; height: 100.0%;">سیمان سبزوار</div>`)[0];
+                popup_0c93f693eec239ca3973c76b5fdc4678.setContent(html_be67fa91eacb5945187b7fed645b7c84);
+            
+        
+
+        marker_a1c62345bf1f36d2215bf091127d1991.bindPopup(popup_0c93f693eec239ca3973c76b5fdc4678)
+        ;
+
+        
+    
+    
+            var marker_7b1bd12941805d129a7979be3d6258d0 = L.marker(
+                [30.66132285, 50.30703304787509],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_3b1de231490e20b6935425a756dcbddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b1bd12941805d129a7979be3d6258d0.setIcon(icon_3b1de231490e20b6935425a756dcbddc);
+        
+    
+        var popup_544b07f21716026c9b3c29150c8388ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b5f629d6b1907f3d7b810e8c8de9413 = $(`<div id="html_3b5f629d6b1907f3d7b810e8c8de9413" style="width: 100.0%; height: 100.0%;">سیمان بهبهان</div>`)[0];
+                popup_544b07f21716026c9b3c29150c8388ac.setContent(html_3b5f629d6b1907f3d7b810e8c8de9413);
+            
+        
+
+        marker_7b1bd12941805d129a7979be3d6258d0.bindPopup(popup_544b07f21716026c9b3c29150c8388ac)
+        ;
+
+        
+    
+    
+            var marker_2c331948947d10e5851c9ca0b2143d76 = L.marker(
+                [38.43216925, 48.42221111361617],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_e332cb878505226f061a83bcbad4df23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2c331948947d10e5851c9ca0b2143d76.setIcon(icon_e332cb878505226f061a83bcbad4df23);
+        
+    
+        var popup_2b41c774bcd817c82d068a87a9c139a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38d2beea34defc6fc50e3877e447ed32 = $(`<div id="html_38d2beea34defc6fc50e3877e447ed32" style="width: 100.0%; height: 100.0%;">سیمان اردبیل</div>`)[0];
+                popup_2b41c774bcd817c82d068a87a9c139a2.setContent(html_38d2beea34defc6fc50e3877e447ed32);
+            
+        
+
+        marker_2c331948947d10e5851c9ca0b2143d76.bindPopup(popup_2b41c774bcd817c82d068a87a9c139a2)
+        ;
+
+        
+    
+    
+            var marker_c7257fdff7eda5b18b7a28a1f2574ebc = L.marker(
+                [35.7003347, 51.4213243],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_a71fb2e70dca5a80bbab6093c2146d91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c7257fdff7eda5b18b7a28a1f2574ebc.setIcon(icon_a71fb2e70dca5a80bbab6093c2146d91);
+        
+    
+        var popup_894104057fd4e67080c1aef31d6c0a7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e8eabbb6731bc67094ea3de6924a9b = $(`<div id="html_e1e8eabbb6731bc67094ea3de6924a9b" style="width: 100.0%; height: 100.0%;">سیمان نهاوند</div>`)[0];
+                popup_894104057fd4e67080c1aef31d6c0a7a.setContent(html_e1e8eabbb6731bc67094ea3de6924a9b);
+            
+        
+
+        marker_c7257fdff7eda5b18b7a28a1f2574ebc.bindPopup(popup_894104057fd4e67080c1aef31d6c0a7a)
+        ;
+
+        
+    
+    
+            var marker_39ed30a01ad528f66982c5b8731b558b = L.marker(
+                [32.5756324, 51.58313293297613],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_15a82c265ffbec8c6860ec791b5d2e1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39ed30a01ad528f66982c5b8731b558b.setIcon(icon_15a82c265ffbec8c6860ec791b5d2e1e);
+        
+    
+        var popup_fcb93aec620755e7c15565c0778d0231 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91783907fcae362cdbe278409970cdeb = $(`<div id="html_91783907fcae362cdbe278409970cdeb" style="width: 100.0%; height: 100.0%;">سیمان اصفهان</div>`)[0];
+                popup_fcb93aec620755e7c15565c0778d0231.setContent(html_91783907fcae362cdbe278409970cdeb);
+            
+        
+
+        marker_39ed30a01ad528f66982c5b8731b558b.bindPopup(popup_fcb93aec620755e7c15565c0778d0231)
+        ;
+
+        
+    
+    
+            var marker_e711af6fd439df0e3cd6d9bcd42a6d79 = L.marker(
+                [26.9066244, 56.0343596221087],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_7a25bbc5122c143d6013b0cb7f7e10ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e711af6fd439df0e3cd6d9bcd42a6d79.setIcon(icon_7a25bbc5122c143d6013b0cb7f7e10ed);
+        
+    
+        var popup_c31e0e10ab41a400b49dd37f5a624281 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dfa66c1dd6916923cd281a67110d089 = $(`<div id="html_0dfa66c1dd6916923cd281a67110d089" style="width: 100.0%; height: 100.0%;">سیمان قشم</div>`)[0];
+                popup_c31e0e10ab41a400b49dd37f5a624281.setContent(html_0dfa66c1dd6916923cd281a67110d089);
+            
+        
+
+        marker_e711af6fd439df0e3cd6d9bcd42a6d79.bindPopup(popup_c31e0e10ab41a400b49dd37f5a624281)
+        ;
+
+        
+    
+    
+            var marker_8a0d2f93815cd4bb4bf3522f5ddab642 = L.marker(
+                [31.7399896, 49.4938111],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_36d06187d79f90302a323457dec4edc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a0d2f93815cd4bb4bf3522f5ddab642.setIcon(icon_36d06187d79f90302a323457dec4edc7);
+        
+    
+        var popup_f62a5ab9f63d24f04da6f4a5d39c9e9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f083a5e26cee245a0267ecd73d3980b = $(`<div id="html_3f083a5e26cee245a0267ecd73d3980b" style="width: 100.0%; height: 100.0%;">سیمان کارون</div>`)[0];
+                popup_f62a5ab9f63d24f04da6f4a5d39c9e9c.setContent(html_3f083a5e26cee245a0267ecd73d3980b);
+            
+        
+
+        marker_8a0d2f93815cd4bb4bf3522f5ddab642.bindPopup(popup_f62a5ab9f63d24f04da6f4a5d39c9e9c)
+        ;
+
+        
+    
+    
+            var marker_ddf11974f509c19af47f1329c2a0d0f2 = L.marker(
+                [30.5176153, 51.5447537],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_6d077a63ba7a0456cb9b7a6e9926c235 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ddf11974f509c19af47f1329c2a0d0f2.setIcon(icon_6d077a63ba7a0456cb9b7a6e9926c235);
+        
+    
+        var popup_bd9fbb1ea5723e26b98cc4a9510edd9c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1550a89b0bdb89073cd6a0a2496391ec = $(`<div id="html_1550a89b0bdb89073cd6a0a2496391ec" style="width: 100.0%; height: 100.0%;">سیمان یاسوج</div>`)[0];
+                popup_bd9fbb1ea5723e26b98cc4a9510edd9c.setContent(html_1550a89b0bdb89073cd6a0a2496391ec);
+            
+        
+
+        marker_ddf11974f509c19af47f1329c2a0d0f2.bindPopup(popup_bd9fbb1ea5723e26b98cc4a9510edd9c)
+        ;
+
+        
+    
+    
+            var marker_5e893c455a012d92c741ea146edbde13 = L.marker(
+                [35.7956541, 52.8042888],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_e8f13b29c7c1a45192e66477c69e5d59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5e893c455a012d92c741ea146edbde13.setIcon(icon_e8f13b29c7c1a45192e66477c69e5d59);
+        
+    
+        var popup_e959721c8d704fa9b02662da2f14887f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9f5cc9ff085ccf48de6234894d4e416 = $(`<div id="html_a9f5cc9ff085ccf48de6234894d4e416" style="width: 100.0%; height: 100.0%;">سیمان فراز فیروزکوه</div>`)[0];
+                popup_e959721c8d704fa9b02662da2f14887f.setContent(html_a9f5cc9ff085ccf48de6234894d4e416);
+            
+        
+
+        marker_5e893c455a012d92c741ea146edbde13.bindPopup(popup_e959721c8d704fa9b02662da2f14887f)
+        ;
+
+        
+    
+    
+            var marker_7cfe0a5cdcd7ac1af6522df86c291350 = L.marker(
+                [28.20622285, 61.305881498342494],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_e45b94bd4aba55621a19b14a028b9dcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cfe0a5cdcd7ac1af6522df86c291350.setIcon(icon_e45b94bd4aba55621a19b14a028b9dcc);
+        
+    
+        var popup_cc051851f49849d7c8ff051bb142f548 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da77ac19636524246bd9e4f7afec07db = $(`<div id="html_da77ac19636524246bd9e4f7afec07db" style="width: 100.0%; height: 100.0%;">سیمان خاش</div>`)[0];
+                popup_cc051851f49849d7c8ff051bb142f548.setContent(html_da77ac19636524246bd9e4f7afec07db);
+            
+        
+
+        marker_7cfe0a5cdcd7ac1af6522df86c291350.bindPopup(popup_cc051851f49849d7c8ff051bb142f548)
+        ;
+
+        
+    
+    
+            var marker_9721c162709e3a096f6afb0fe20dd368 = L.marker(
+                [29.08975, 58.3779238],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_6c79808694770c761ddb767983543027 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9721c162709e3a096f6afb0fe20dd368.setIcon(icon_6c79808694770c761ddb767983543027);
+        
+    
+        var popup_8d3c3f0c093f0438d45aad544569ec84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f486e5203eb52e70f2015690e7ad5382 = $(`<div id="html_f486e5203eb52e70f2015690e7ad5382" style="width: 100.0%; height: 100.0%;">سیمان ممتازان کرمان</div>`)[0];
+                popup_8d3c3f0c093f0438d45aad544569ec84.setContent(html_f486e5203eb52e70f2015690e7ad5382);
+            
+        
+
+        marker_9721c162709e3a096f6afb0fe20dd368.bindPopup(popup_8d3c3f0c093f0438d45aad544569ec84)
+        ;
+
+        
+    
+    
+            var marker_1a1d9864289a6a67d53a1817c7301fa4 = L.marker(
+                [26.95753525, 55.543134225273135],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_442f46fa9b13ab783fed0728f4d75a49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a1d9864289a6a67d53a1817c7301fa4.setIcon(icon_442f46fa9b13ab783fed0728f4d75a49);
+        
+    
+        var popup_cda06a603775657997d43d32a3c956cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c3945375a125d5854011e0b9f14b652 = $(`<div id="html_6c3945375a125d5854011e0b9f14b652" style="width: 100.0%; height: 100.0%;">سیمان هرمزگان</div>`)[0];
+                popup_cda06a603775657997d43d32a3c956cd.setContent(html_6c3945375a125d5854011e0b9f14b652);
+            
+        
+
+        marker_1a1d9864289a6a67d53a1817c7301fa4.bindPopup(popup_cda06a603775657997d43d32a3c956cd)
+        ;
+
+        
+    
+    
+            var marker_711595ce199c4ac4a1d631a67b024a25 = L.marker(
+                [29.2030521, 54.4814115],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_fa43d3e1c88c802bac6900f6b5532744 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_711595ce199c4ac4a1d631a67b024a25.setIcon(icon_fa43d3e1c88c802bac6900f6b5532744);
+        
+    
+        var popup_04fa7fae040b1a1dc60ed520223e0859 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7104d19c37e81898a392e23b7fa5cc5 = $(`<div id="html_a7104d19c37e81898a392e23b7fa5cc5" style="width: 100.0%; height: 100.0%;">سیمان نی‌ریز</div>`)[0];
+                popup_04fa7fae040b1a1dc60ed520223e0859.setContent(html_a7104d19c37e81898a392e23b7fa5cc5);
+            
+        
+
+        marker_711595ce199c4ac4a1d631a67b024a25.bindPopup(popup_04fa7fae040b1a1dc60ed520223e0859)
+        ;
+
+        
+    
+    
+            var marker_0fb45051a7c582bacf7c571e6a860605 = L.marker(
+                [34.19712, 50.39537792658177],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_3aafa8968a396beb74ee630606b424f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0fb45051a7c582bacf7c571e6a860605.setIcon(icon_3aafa8968a396beb74ee630606b424f1);
+        
+    
+        var popup_b8a1ac80b0541e90643ec5f008840998 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ccc7173150e3861b2865760554b74a1 = $(`<div id="html_9ccc7173150e3861b2865760554b74a1" style="width: 100.0%; height: 100.0%;">سیمان دلیجان</div>`)[0];
+                popup_b8a1ac80b0541e90643ec5f008840998.setContent(html_9ccc7173150e3861b2865760554b74a1);
+            
+        
+
+        marker_0fb45051a7c582bacf7c571e6a860605.bindPopup(popup_b8a1ac80b0541e90643ec5f008840998)
+        ;
+
+        
+    
+    
+            var marker_b6a9cbb12c9a2c0ec92e62500168900d = L.marker(
+                [33.483509299999994, 49.074954739566905],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_6adaef320a157426cf363e1178cdc431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b6a9cbb12c9a2c0ec92e62500168900d.setIcon(icon_6adaef320a157426cf363e1178cdc431);
+        
+    
+        var popup_275e97d235f0f18904791558a6fc5d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b70fc6ca72efa796bb31a6ba439245b9 = $(`<div id="html_b70fc6ca72efa796bb31a6ba439245b9" style="width: 100.0%; height: 100.0%;">سیمان دورود</div>`)[0];
+                popup_275e97d235f0f18904791558a6fc5d90.setContent(html_b70fc6ca72efa796bb31a6ba439245b9);
+            
+        
+
+        marker_b6a9cbb12c9a2c0ec92e62500168900d.bindPopup(popup_275e97d235f0f18904791558a6fc5d90)
+        ;
+
+        
+    
+    
+            var marker_ba2472dd27a191d7a8610e75ab6dd821 = L.marker(
+                [29.124532799999997, 52.646894360003664],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_c13d633f38e0d93ff2c7cc4fd634d859 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba2472dd27a191d7a8610e75ab6dd821.setIcon(icon_c13d633f38e0d93ff2c7cc4fd634d859);
+        
+    
+        var popup_c94fea7a6bc185045dcf8406e34955d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_945543bfb0e8be7958362b2c9fde5e64 = $(`<div id="html_945543bfb0e8be7958362b2c9fde5e64" style="width: 100.0%; height: 100.0%;">سیمان فارس</div>`)[0];
+                popup_c94fea7a6bc185045dcf8406e34955d9.setContent(html_945543bfb0e8be7958362b2c9fde5e64);
+            
+        
+
+        marker_ba2472dd27a191d7a8610e75ab6dd821.bindPopup(popup_c94fea7a6bc185045dcf8406e34955d9)
+        ;
+
+        
+    
+    
+            var marker_46c40d8f52a5fb1f917649a8b5059c50 = L.marker(
+                [35.82412465, 52.80302559167506],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_ea59096309b4e48800608acbb08e4959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_46c40d8f52a5fb1f917649a8b5059c50.setIcon(icon_ea59096309b4e48800608acbb08e4959);
+        
+    
+        var popup_318d2f1faf059e4bd2a3da5c074b4577 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4d90703ea9b7581cce3efa6ac76ad27 = $(`<div id="html_d4d90703ea9b7581cce3efa6ac76ad27" style="width: 100.0%; height: 100.0%;">سیمان فیروزکوه</div>`)[0];
+                popup_318d2f1faf059e4bd2a3da5c074b4577.setContent(html_d4d90703ea9b7581cce3efa6ac76ad27);
+            
+        
+
+        marker_46c40d8f52a5fb1f917649a8b5059c50.bindPopup(popup_318d2f1faf059e4bd2a3da5c074b4577)
+        ;
+
+        
+    
+    
+            var marker_932134c0102e673418f26852520de5d4 = L.marker(
+                [36.85494595, 50.01665559097851],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_01a172da04347e7e9842b19882d1ba85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_932134c0102e673418f26852520de5d4.setIcon(icon_01a172da04347e7e9842b19882d1ba85);
+        
+    
+        var popup_4a4802b6b9253b2bdeebab8ca42edf35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f7deb01455f5a387779d85dd4ce343 = $(`<div id="html_84f7deb01455f5a387779d85dd4ce343" style="width: 100.0%; height: 100.0%;">سیمان گیلان</div>`)[0];
+                popup_4a4802b6b9253b2bdeebab8ca42edf35.setContent(html_84f7deb01455f5a387779d85dd4ce343);
+            
+        
+
+        marker_932134c0102e673418f26852520de5d4.bindPopup(popup_4a4802b6b9253b2bdeebab8ca42edf35)
+        ;
+
+        
+    
+    
+            var marker_941a5ffb55998da7f38a07d61f75fbc5 = L.marker(
+                [30.34385675, 56.51161640640977],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_203e0bb9373d27304a6fdb950957c2dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_941a5ffb55998da7f38a07d61f75fbc5.setIcon(icon_203e0bb9373d27304a6fdb950957c2dd);
+        
+    
+        var popup_ff9925a886cc343370ed69dac3a4f65f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf8d8da960717efca28080cf06904c78 = $(`<div id="html_bf8d8da960717efca28080cf06904c78" style="width: 100.0%; height: 100.0%;">سیمان زرین رفسنجان</div>`)[0];
+                popup_ff9925a886cc343370ed69dac3a4f65f.setContent(html_bf8d8da960717efca28080cf06904c78);
+            
+        
+
+        marker_941a5ffb55998da7f38a07d61f75fbc5.bindPopup(popup_ff9925a886cc343370ed69dac3a4f65f)
+        ;
+
+        
+    
+    
+            var marker_fad337f842d74a353145c9a3a84e06df = L.marker(
+                [35.700734, 51.788379261006284],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_037a7094ebd56739cef0c130bbef58e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fad337f842d74a353145c9a3a84e06df.setIcon(icon_037a7094ebd56739cef0c130bbef58e3);
+        
+    
+        var popup_b517039a8eafc92e995f08b5034fb386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dde9c699ede6fac7035ed93a0bdc15fd = $(`<div id="html_dde9c699ede6fac7035ed93a0bdc15fd" style="width: 100.0%; height: 100.0%;">سیمان شمال</div>`)[0];
+                popup_b517039a8eafc92e995f08b5034fb386.setContent(html_dde9c699ede6fac7035ed93a0bdc15fd);
+            
+        
+
+        marker_fad337f842d74a353145c9a3a84e06df.bindPopup(popup_b517039a8eafc92e995f08b5034fb386)
+        ;
+
+        
+    
+    
+            var marker_8f32776eb75a9d849d3f7661f7ab777f = L.marker(
+                [36.479238699999996, 59.74659264689782],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_0a29636fc8aa36b7acec6d5a05b94c29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f32776eb75a9d849d3f7661f7ab777f.setIcon(icon_0a29636fc8aa36b7acec6d5a05b94c29);
+        
+    
+        var popup_aed3f011e219aebe393d2d15db3da97c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b47a50cb6b588d1905286cfec043dad6 = $(`<div id="html_b47a50cb6b588d1905286cfec043dad6" style="width: 100.0%; height: 100.0%;">سیمان مشهد</div>`)[0];
+                popup_aed3f011e219aebe393d2d15db3da97c.setContent(html_b47a50cb6b588d1905286cfec043dad6);
+            
+        
+
+        marker_8f32776eb75a9d849d3f7661f7ab777f.bindPopup(popup_aed3f011e219aebe393d2d15db3da97c)
+        ;
+
+        
+    
+    
+            var marker_29cab42a0a3a30fc8f0dcbc6b0485157 = L.marker(
+                [27.739902450000002, 52.1687189635562],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_733832af9fa0339b57018e80eba0461a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29cab42a0a3a30fc8f0dcbc6b0485157.setIcon(icon_733832af9fa0339b57018e80eba0461a);
+        
+    
+        var popup_6fe9788e57fb7917680cbcc0273f41a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e19737571794585d48e8207e0ae3716 = $(`<div id="html_0e19737571794585d48e8207e0ae3716" style="width: 100.0%; height: 100.0%;">سیمان کنگان</div>`)[0];
+                popup_6fe9788e57fb7917680cbcc0273f41a4.setContent(html_0e19737571794585d48e8207e0ae3716);
+            
+        
+
+        marker_29cab42a0a3a30fc8f0dcbc6b0485157.bindPopup(popup_6fe9788e57fb7917680cbcc0273f41a4)
+        ;
+
+        
+    
+    
+            var marker_e044de70402208b3430a94a144ab502d = L.marker(
+                [30.9668368, 51.13402442010847],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_b5b686fd48318f62fa7419ea809291df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e044de70402208b3430a94a144ab502d.setIcon(icon_b5b686fd48318f62fa7419ea809291df);
+        
+    
+        var popup_6f277ed58d49ce27ff9c1c8bd7926ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4ed442b9c51e53541b987fbe64ff4b8 = $(`<div id="html_f4ed442b9c51e53541b987fbe64ff4b8" style="width: 100.0%; height: 100.0%;">سیمان مارگون</div>`)[0];
+                popup_6f277ed58d49ce27ff9c1c8bd7926ee2.setContent(html_f4ed442b9c51e53541b987fbe64ff4b8);
+            
+        
+
+        marker_e044de70402208b3430a94a144ab502d.bindPopup(popup_6f277ed58d49ce27ff9c1c8bd7926ee2)
+        ;
+
+        
+    
+    
+            var marker_8137da60a96cd4187acc2b2f291c1e00 = L.marker(
+                [31.622612150000002, 54.74592052851536],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_6077f18b65124fd75beadf516f5b9bf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8137da60a96cd4187acc2b2f291c1e00.setIcon(icon_6077f18b65124fd75beadf516f5b9bf4);
+        
+    
+        var popup_1befa54aec88bada3d46ccd0f5ead3c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51693132c9abb8a64467f9dbec37ef97 = $(`<div id="html_51693132c9abb8a64467f9dbec37ef97" style="width: 100.0%; height: 100.0%;">سیمان یزد</div>`)[0];
+                popup_1befa54aec88bada3d46ccd0f5ead3c8.setContent(html_51693132c9abb8a64467f9dbec37ef97);
+            
+        
+
+        marker_8137da60a96cd4187acc2b2f291c1e00.bindPopup(popup_1befa54aec88bada3d46ccd0f5ead3c8)
+        ;
+
+        
+    
+    
+            var marker_a9f0036ff43fb48d5259a6fad2ee4246 = L.marker(
+                [36.85494595, 50.01665559097851],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_478053d956c847a2b8f7d04a082f08cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a9f0036ff43fb48d5259a6fad2ee4246.setIcon(icon_478053d956c847a2b8f7d04a082f08cd);
+        
+    
+        var popup_5dbbdf3a6d46e0e82421d97dbfa73a71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f02b623a1497e5705a754fbed0281d9 = $(`<div id="html_7f02b623a1497e5705a754fbed0281d9" style="width: 100.0%; height: 100.0%;">سیمان دیلمان</div>`)[0];
+                popup_5dbbdf3a6d46e0e82421d97dbfa73a71.setContent(html_7f02b623a1497e5705a754fbed0281d9);
+            
+        
+
+        marker_a9f0036ff43fb48d5259a6fad2ee4246.bindPopup(popup_5dbbdf3a6d46e0e82421d97dbfa73a71)
+        ;
+
+        
+    
+    
+            var marker_80aba7433de02cbb0137bc1e532f32c6 = L.marker(
+                [36.017361550000004, 50.586729226983664],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_de9dfdf52c41d4694f1176e42e41414a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80aba7433de02cbb0137bc1e532f32c6.setIcon(icon_de9dfdf52c41d4694f1176e42e41414a);
+        
+    
+        var popup_5559600006cd22349e16fdae17b1894f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9318e6f05e6e1c6fa6066f5f93e2da0 = $(`<div id="html_a9318e6f05e6e1c6fa6066f5f93e2da0" style="width: 100.0%; height: 100.0%;">سیمان خوزستان</div>`)[0];
+                popup_5559600006cd22349e16fdae17b1894f.setContent(html_a9318e6f05e6e1c6fa6066f5f93e2da0);
+            
+        
+
+        marker_80aba7433de02cbb0137bc1e532f32c6.bindPopup(popup_5559600006cd22349e16fdae17b1894f)
+        ;
+
+        
+    
+    
+            var marker_d744d6c2fbb88e8a12489c38296f330d = L.marker(
+                [38.43216925, 48.42221111361617],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_d86f1dfde8da1c22c98411f41755af72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d744d6c2fbb88e8a12489c38296f330d.setIcon(icon_d86f1dfde8da1c22c98411f41755af72);
+        
+    
+        var popup_bd750f3d99d699c9f3a2af684485f7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c034583f7545074ee35bec64abab4bc4 = $(`<div id="html_c034583f7545074ee35bec64abab4bc4" style="width: 100.0%; height: 100.0%;">سیمان آرتا اردبیل</div>`)[0];
+                popup_bd750f3d99d699c9f3a2af684485f7c0.setContent(html_c034583f7545074ee35bec64abab4bc4);
+            
+        
+
+        marker_d744d6c2fbb88e8a12489c38296f330d.bindPopup(popup_bd750f3d99d699c9f3a2af684485f7c0)
+        ;
+
+        
+    
+    
+            var marker_c1b4155760134391b364d9e579afaa09 = L.marker(
+                [33.105958099999995, 52.059794841080226],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_f889fbe4e90ffc34b06e19574cd5b60d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1b4155760134391b364d9e579afaa09.setIcon(icon_f889fbe4e90ffc34b06e19574cd5b60d);
+        
+    
+        var popup_f0589f8ccb3c3b528f1d7b66500aee5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0574e70797efb619beaf8b4cb1553c87 = $(`<div id="html_0574e70797efb619beaf8b4cb1553c87" style="width: 100.0%; height: 100.0%;">سیمان اردستان</div>`)[0];
+                popup_f0589f8ccb3c3b528f1d7b66500aee5e.setContent(html_0574e70797efb619beaf8b4cb1553c87);
+            
+        
+
+        marker_c1b4155760134391b364d9e579afaa09.bindPopup(popup_f0589f8ccb3c3b528f1d7b66500aee5e)
+        ;
+
+        
+    
+    
+            var marker_0a7c05d00d35adedbbf5d969450f09f7 = L.marker(
+                [28.2588863, 61.2452499],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_f7f09f73bb88e7ef9d9731b0afd46bd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a7c05d00d35adedbbf5d969450f09f7.setIcon(icon_f7f09f73bb88e7ef9d9731b0afd46bd9);
+        
+    
+        var popup_b60f66735d847d9880d3238c740ceaf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83a4a28b9c7893f3a8c15ad95f4db2bb = $(`<div id="html_83a4a28b9c7893f3a8c15ad95f4db2bb" style="width: 100.0%; height: 100.0%;">سیمان پوزولان</div>`)[0];
+                popup_b60f66735d847d9880d3238c740ceaf6.setContent(html_83a4a28b9c7893f3a8c15ad95f4db2bb);
+            
+        
+
+        marker_0a7c05d00d35adedbbf5d969450f09f7.bindPopup(popup_b60f66735d847d9880d3238c740ceaf6)
+        ;
+
+        
+    
+    
+            var marker_6dbb9dbd7daf76a74fa89a1836a89227 = L.marker(
+                [27.78862795, 54.48239900560917],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_f937cb1f8193a5ce77dfa8ae3bfd274c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dbb9dbd7daf76a74fa89a1836a89227.setIcon(icon_f937cb1f8193a5ce77dfa8ae3bfd274c);
+        
+    
+        var popup_83b124aea7798c533cb9d71c2a848cb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b624a3220e912a454e21f3e1aacd4b7 = $(`<div id="html_0b624a3220e912a454e21f3e1aacd4b7" style="width: 100.0%; height: 100.0%;">سیمان سفید لارستان</div>`)[0];
+                popup_83b124aea7798c533cb9d71c2a848cb2.setContent(html_0b624a3220e912a454e21f3e1aacd4b7);
+            
+        
+
+        marker_6dbb9dbd7daf76a74fa89a1836a89227.bindPopup(popup_83b124aea7798c533cb9d71c2a848cb2)
+        ;
+
+        
+    
+    
+            var marker_437b2b66fbb0655c7ac8fdd496d9f433 = L.marker(
+                [32.67636455, 53.13908249930655],
+                {}
+            ).addTo(map_242255ff76c43ec36747d68e5f68ff2d);
+        
+    
+            var icon_de571471d0b01ca060e35906dc74588b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_437b2b66fbb0655c7ac8fdd496d9f433.setIcon(icon_de571471d0b01ca060e35906dc74588b);
+        
+    
+        var popup_7fc1116b2149d1fdd51ef1591226339a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88c5d267c51a0ef1052f2ffe1403f9f5 = $(`<div id="html_88c5d267c51a0ef1052f2ffe1403f9f5" style="width: 100.0%; height: 100.0%;">سیمان سفید بنوید</div>`)[0];
+                popup_7fc1116b2149d1fdd51ef1591226339a.setContent(html_88c5d267c51a0ef1052f2ffe1403f9f5);
+            
+        
+
+        marker_437b2b66fbb0655c7ac8fdd496d9f433.bindPopup(popup_7fc1116b2149d1fdd51ef1591226339a)
+        ;
+
+        
+    
+</script>
+</html>
